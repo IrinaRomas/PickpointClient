@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - PickpointClient (0.1.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - PickpointClient (from `../`)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  PickpointClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  PickpointClient: 01b7b4e7f44cbf0691be69739d7112f94c1e3732
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 5af7e35b1de10366e2a26eca1e53f10512f2c789
+
+COCOAPODS: 1.9.1

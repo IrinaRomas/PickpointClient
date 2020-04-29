@@ -1,0 +1,22 @@
+{
+  "name": "PickpointClient",
+  "version": "0.1.0",
+  "summary": "A short description of PickpointClient.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/IrinaRomas/PickpointClient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "IrinaRomas": "53312057+IrinaRomas@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/IrinaRomas/PickpointClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PickpointClient/Classes/**/*"
+}

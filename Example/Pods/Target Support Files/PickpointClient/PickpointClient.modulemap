@@ -1,0 +1,6 @@
+framework module PickpointClient {
+  umbrella header "PickpointClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

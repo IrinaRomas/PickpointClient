@@ -24,13 +24,15 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/IrinaRomas/PickpointClient'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'IrinaRomas' => 'romas.irina86@gmail.com }
+  s.author           = { 'IrinaRomas' => 'romas.irina86@gmail.com' }
   s.source           = { :git => 'https://github.com/IrinaRomas/PickpointClient.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'PickpointClient/Classes/*'
+  s.source_files = 'Classes/*.swift'
+  
+  s.swift_versions = ['5.1', '5.2']
   
   # s.resource_bundles = {
   #   'PickpointClient' => ['PickpointClient/Assets/*.png']

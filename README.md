@@ -6,7 +6,7 @@ PickpointClient is a library written in Swift.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-```
+```swift
 let pick = PickpointClient(serviceProvider: CityBoxberryProvider())
        pick.get(completion: { result in
            print(result.count)

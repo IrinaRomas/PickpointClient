@@ -23,7 +23,7 @@ class NetworkDataFetch {
     
     func sendRequest<T: Decodable>(urlServer: String, parameters: [String: String], force: Bool = false, isLog: Bool, path: String? = nil, entryLifetime: TimeInterval, success response: @escaping (T?) -> (), failure failureCallback: @escaping (Error?) -> ()) {
         
-        cache = CacheLib(entryLifetime: entryLifetime, isLog: isLog, path: path)
+        cache = CacheLib(entryLifetime: entryLifetime, isLogingEnabled: isLog)
         
         let parametersSorted = parameters.sorted { $0.key < $1.key }
         var components = URLComponents(string: urlServer)!
